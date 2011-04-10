@@ -1,9 +1,0 @@
-Sitemap: http://blog.dianakimball.com/sitemap1.xml
-Sitemap: http://blog.dianakimball.com/sitemap2.xml
-
-User-agent: *
-Disallow: /private
-Disallow: /random
-Disallow: /day
-Crawl-delay: 1
-

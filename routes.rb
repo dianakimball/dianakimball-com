@@ -6,7 +6,15 @@ get '/' do
 end
 
 get '/sitemap.xml' do
-  redirect 'http://blog.dianakimball.com/sitemap.xml', 301
+  redirect 'http://blog.dianakimball.com/sitemap1.xml', 301
+end
+
+get '/sitemap1.xml' do
+  redirect 'http://blog.dianakimball.com/sitemap1.xml', 301
+end
+
+get '/sitemap2.xml' do
+  redirect 'http://blog.dianakimball.com/sitemap2.xml', 301
 end
 
 get '/2011/03/roflcon-origins.html' do

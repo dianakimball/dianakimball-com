@@ -8,7 +8,7 @@ File.open('routes.rb', "wb") do |file|
   CSV.foreach('map.csv') do |row|
     file.puts
     file.puts "get '#{row[0]}' do"
-    file.puts "  redirect '#{row[1]}', 301"
+    file.puts "  redirect '#{row[1]}', #{row[2] || 301}"
     file.puts "end"
   end
 end

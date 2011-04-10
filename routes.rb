@@ -5,6 +5,10 @@ get '/' do
   redirect 'http://blog.dianakimball.com', 301
 end
 
+get '/sitemap.xml' do
+  redirect 'http://blog.dianakimball.com/sitemap.xml', 301
+end
+
 get '/2011/03/roflcon-origins.html' do
   redirect 'http://www.dianakimball.blogspot.com/2011/03/roflcon-origins.html', 301
 end

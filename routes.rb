@@ -21,6 +21,14 @@ get '/sitemap2.xml' do
   redirect 'http://blog.dianakimball.com/sitemap2.xml', 302
 end
 
+get '/mentoring' do
+  redirect 'http://blog.dianakimball.com/mentoring', 301
+end
+
+get '/about' do
+  redirect 'http://blog.dianakimball.com/about', 301
+end
+
 get '/2011/03/roflcon-origins.html' do
   redirect 'http://dianakimball.blogspot.com/2011/03/roflcon-origins.html', 301
 end
